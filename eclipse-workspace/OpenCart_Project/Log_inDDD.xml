@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+
+
+
+
+
+<suite name="Open_cart">
+
+	<listeners>
+		<listener class-name="Utilises.ExtentManagerReport1"/>
+	</listeners>
+
+	<test thread-count="5" name="opencart">
+	
+	<parameter name="Browser" value="Chrome"/>
+	<classes>
+			<!--<class name="TestCase.TC_001_AccountRegistration"/>-->
+			<!--<class name="TestCase.TC_002_LogInPage"/>-->
+			 <class name="TestCase.TC_03_LogIn_DDD"/>
+					
+				
+	</classes>	
+	</test>
+</suite>
